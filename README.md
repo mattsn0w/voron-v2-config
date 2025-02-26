@@ -11,7 +11,7 @@ The communities which gave support and got me through the build by reading and r
 
 ## Status
 - 2/25/2025
-  - Finally got TAP working. The issue is in the documentation and certain assumptions made throughout. The Instructions for TAP assume that you built a stock printer and gotten it to a working state before installing and configuring TAP. I needed to manually insert a `#*# [probe]` line into the bottom of my printer.cfg followed by running `PROBE_CALIBRATE` and manually saving a line in this special `[probe[` section: `#*# z_offset = -1.500` . Now my Z TAP stuff works!
+  - Finally got TAP working. The issue is in the documentation and certain assumptions made throughout. The Instructions for TAP assume that you built a stock printer and gotten it to a working state before installing and configuring TAP. I needed to manually insert a `#*# [probe]` line into the bottom of my printer.cfg followed by running `PROBE_CALIBRATE` and manually saving a line in this special `[probe]` section: `#*# z_offset = -1.500` . Now my Z TAP stuff works!
   - Ran input shaping and adjusted accordingly.
   - Ordered a couple extra build plates in a moment of desparation while trying to get TAP working. I scratched up the textured PEI surface pretty badly while trying to calibrate the Z offset and get a reliable `PRINT_START` macro. 😢 🤬
   - Tensioned all belts evenly using one of [these slick tensioners](https://github.com/Diyshift/3D-Printer/tree/main/GT2%20Belt%20Tension%20Meter) that a coworker printed for me.
