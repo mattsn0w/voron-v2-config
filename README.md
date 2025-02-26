@@ -19,6 +19,7 @@ The communities which gave support and got me through the build by reading and r
 - 2/15/2025 - The printer is mostly assembled, sans skirts, screen and coveres. Currently working through [Initial Startup](https://docs.vorondesign.com/build/startup/#tilt--qgl-with-heated-bed-and-chamber-v1-trident-v2).
 - 2/10/2025 - Picked up a Raspbarry Pi CM4 with eMMC NAND flash and a few GB RAM locally. This was a big improvement on boot time and made firmware and Klipper service restarts much faster. It also is a much higher quality product than BigTreeTech's CB1/CB2.
 - 2/7/2025 - The CB1 with provided SD Card is painfully slow. After realizing this unit did not have the onboard flash that I thought it did, I decided to upgrade the compute Module board. I happened to have a CB2 on hand for a future upgrade project. This was much faster, but after getting all the firmware setup and built, I nudged the wifi antenna nad the darn connector popped off the PCB! Now I cannot connect to the printer. 🤬
+- 2/2/2025 - [PR for documentation updates](https://github.com/Zev-se/Formbot-voron-2.4-build-guide/commit/133997a850d8d4709106382f292d58198b98d351).
 - 1/30/2025 - Despite not being finished with this build, I purchased a [Voron v0.2](https://github.com/VoronDesign/Voron-0) [Formbot sourced kit](https://www.aliexpress.us/item/3256803199432554.html) to build after this one.
 - 1/04/2025 - Started assembling the extruded frame.
 - 12/2024 - Printer kit was shipped in one large well padded and packaged box. Printed parts were shipped in a smaller well padded.
