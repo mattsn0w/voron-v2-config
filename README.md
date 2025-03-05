@@ -10,6 +10,10 @@ The communities which gave support and got me through the build by reading and r
 - [Some fine citizens of the 3D printing world](https://github.com/Zev-se/Formbot-voron-2.4-build-guide) who took it upon themselves to write some supplimental documentation to build these modded kits from Formbot. Formbot links to this GitHub repo with seemingly no affiliation. 
 
 ## Status
+- 3/4/2025
+  - I have been printing a lot of toys for kids and tools for people with limited range of motion. All PLA at this point as the panels still need to be installed.
+  - I ordered a Waveshare OV5648 5 MP Camera Module for the [Chri.Kai.in/ANGRY_USB_CAM](https://github.com/VoronDesign/VoronUsers/tree/main/printer_mods/chri.kai.in/Angry_CAM_USB).
+  - I finished printing and installing the skirts, electronics box fans, and a 7" BTT HDMI V1.2 touchscreen.
 - 2/25/2025
   - Finally got TAP working. The issue is in the documentation and certain assumptions made throughout. The Instructions for TAP assume that you built a stock printer and gotten it to a working state before installing and configuring TAP. I needed to manually insert a `#*# [probe]` line into the bottom of my printer.cfg followed by running `PROBE_CALIBRATE` and manually saving a line in this special `[probe]` section: `#*# z_offset = -1.500` . Now my Z TAP stuff works!
   - Ran input shaping and adjusted accordingly.
